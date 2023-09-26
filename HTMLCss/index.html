@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="color">COLORS</h1>
+      <input
+        class="range"
+        type="range"
+        id="first"
+        value="0"
+        min="0"
+        max="256"
+      />
+      <h1 id="firstH1">0</h1>
+      <input
+        class="range"
+        type="range"
+        id="second"
+        value="0"
+        min="0"
+        max="256"
+      />
+      <h1 id="secondH1">0</h1>
+      <input
+        class="range"
+        type="range"
+        id="third"
+        value="0"
+        min="0"
+        max="256"
+      />
+      <h1 id="thirdH1">0</h1>
+    </div>
+    <h1>CREATING DIV</h1>
+    <button id="btn">CREATE</button>
+    <div class="secondContainer"></div>
+    <div class="thirdContainer">
+      <h1>ADJUST FONT SIZE</h1>
+      <input
+        type="range"
+        class="range"
+        id="fontRange"
+        value="100"
+        min="10"
+        max="200"
+        style="margin-top: 100px; margin-bottom: 100px"
+      />
+      <h3>SIZE : <span id="size">1x</span></h3>
+      <p id="paragraph">
+        Should he write it down? That was the question running through his mind.
+        He couldn't believe what had just happened and he knew nobody else would
+        believe him as well. Even if he documented what had happened by writing
+        it down, he still didn't believe anyone would still believe it. So the
+        question remained. Was it be worth it to actually write it down?
+      </p>
+      <h1 style="margin-top: 100px" >ENTER NUMBERS AND STYLE THE WEBSITE</h1>
+      <h3>ENTER NUMBERS FROM "0" TO "256"</h3>
+      <p>Red</p>
+      <input
+        type="number"
+        class="numberInput"
+        id="firstNumberInput"
+
+      />
+      <p>Green</p>
+      <input
+        type="number"
+        class="numberInput"
+        id="secondNumberInput"
+      />
+      <p>Blue</p>
+      <input
+        type="number"
+        class="numberInput"
+        id="thirdNumberInput"
+      />
+    </div>
+  </body>
+
+  <script src="../lib/index.js"></script>
+</html>
